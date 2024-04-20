@@ -12,6 +12,7 @@ module.exports = {
       lightgrayish: "var(--Light-grayish)",
       veryLightGrayish: "var(--Very-light-grayish)",
       white: "var(--White)",
+      red: "var(--red)",
       // Add more colors if needed
     },
     fontFamily: {

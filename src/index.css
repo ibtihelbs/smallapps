@@ -10,11 +10,12 @@
     --Light-grayish: hsl(185, 41%, 84%);
     --Very-light-grayish: hsl(189, 41%, 97%);
     --White: hsl(0, 0%, 1100%);
+    --red: red;
     /* ... */
   }
 }
 
-span::after {
+.span::after {
   content: "/person";
   display: block;
   font-size: 12px;
