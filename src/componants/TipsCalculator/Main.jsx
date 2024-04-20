@@ -27,7 +27,7 @@ const Main = () => {
       setResult(() => {
         return {
           tipAmount: (bill * tip) / (100 * poeple),
-          total: bill / poeple + result.tipAmount,
+          total: bill / poeple + (bill * tip) / (100 * poeple),
         };
       });
     }
